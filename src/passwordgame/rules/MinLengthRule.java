@@ -1,6 +1,6 @@
 package passwordgame.rules;
 
-public class 1_MinLengthRule implements Rule {
+public class MinLengthRule implements Rule {
 
     private static final int MIN_LENGTH = 8;
 

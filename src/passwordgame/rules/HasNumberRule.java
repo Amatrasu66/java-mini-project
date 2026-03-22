@@ -1,6 +1,6 @@
 package passwordgame.rules;
 
-public class 2_HasNumberRule implements Rule {
+public class HasNumberRule implements Rule {
 
     @Override
     public boolean isSatisfied(String password) {
