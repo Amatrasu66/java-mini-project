@@ -1,7 +1,7 @@
 package passwordgame;
 
-import passwordgame.rules.Rule;
 import java.util.List;
+import passwordgame.rules.Rule;
 
 public class ConsoleHelper {
 
@@ -17,7 +17,7 @@ public class ConsoleHelper {
         System.out.println("\n--- Active Rules ---");
         for (int i = 0; i < rules.size(); i++) {
             boolean passed = rules.get(i).isSatisfied(password);
-            String status = passed ? "✅" : "❌";
+            String status = passed ? "[PASS]" : "[FAIL]";
             System.out.println(status + " Rule " + (i + 1) + ": " + rules.get(i).getDescription());
         }
         System.out.println("--------------------");
