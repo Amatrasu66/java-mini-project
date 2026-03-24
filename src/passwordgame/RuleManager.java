@@ -1,23 +1,23 @@
 package passwordgame;
 
-import passwordgame.rules.Rule;
-import passwordgame.rules.MinLengthRule;
-import passwordgame.rules.HasNumberRule;
-import passwordgame.rules.HasUppercaseRule;
-import passwordgame.rules.HasSpecialCharRule;
-import passwordgame.rules.PlankLengthRule;
-import passwordgame.rules.HasMonthRule;
-import passwordgame.rules.HasRomanNumeralRule;
-import passwordgame.rules.OddLengthRule;
-import passwordgame.rules.HasWordJavaRule;
-import passwordgame.rules.HasCountryRule;
-import passwordgame.rules.DivisibleBySevenRule;
-import passwordgame.rules.ChemicalSymbolRule;
 import java.util.ArrayList;
 import java.util.List;
+import passwordgame.rules.ChemicalSymbolRule;
+import passwordgame.rules.DivisibleBySevenRule;
+import passwordgame.rules.HasCountryRule;
+import passwordgame.rules.HasMonthRule;
+import passwordgame.rules.HasNumberRule;
+import passwordgame.rules.HasRomanNumeralRule;
+import passwordgame.rules.HasSpecialCharRule;
+import passwordgame.rules.HasUppercaseRule;
+import passwordgame.rules.HasWordJavaRule;
+import passwordgame.rules.MinLengthRule;
+import passwordgame.rules.OddLengthRule;
+import passwordgame.rules.PlankLengthRule;
+import passwordgame.rules.Rule;
 
 public class RuleManager {
-
+ 
     private List<Rule> allRules;
     private List<Rule> activeRules;
 
